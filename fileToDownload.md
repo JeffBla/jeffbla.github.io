@@ -1,8 +1,10 @@
 ---
 layout: page
-title: You can download everything
-subtitle: Hey! Don't be naughty
+title: It Work!
+subtitle: Hey! Don't be naughty!
 ---
+
+You can download everything.
 
 ### Download
 
