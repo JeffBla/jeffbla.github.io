@@ -15,7 +15,7 @@ You can download everything.
 <details>
   <summary>AES HomeWork: python</summary>
       somthing...
-      
+
 ```python
 from base64 import b64decode, b64encode
 from Crypto.Cipher import AES
@@ -54,6 +54,17 @@ with open("record.txt", "w") as file:
                         continue
         print(i)
 ```
+  
+</details>
+
+<details>
+  <summary>Spoiler warning</summary>
+  
+  Spoiler text. Note that it's important to have a space after the summary tag. You should be able to write any markdown you want inside the `<details>` tag... just make sure you close `<details>` afterward.
+  
+  ```javascript
+  console.log("I'm a code block!");
+  ```
   
 </details>
 
