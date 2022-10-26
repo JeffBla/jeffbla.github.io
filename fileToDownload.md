@@ -16,8 +16,8 @@ You can download everything.
   <summary>AES HomeWork: python</summary>
   
 somthing...
-
-<code>
+    <pre>
+        <code>
 
     from base64 import b64decode, b64encode
     from Crypto.Cipher import AES
@@ -55,6 +55,7 @@ somthing...
                         except Exception:
                             continue
             print(i)
-</code>
+        </code>
+    </pre>
 
 </details>
