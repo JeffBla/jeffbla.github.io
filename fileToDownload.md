@@ -16,7 +16,7 @@ You can download everything.
 <details>
   <summary>AES HomeWork: python</summary>
       
-    ```python=
+```python=
     from base64 import b64decode, b64encode
     from Crypto.Cipher import AES
 
@@ -53,7 +53,7 @@ You can download everything.
                         except Exception:
                             continue
             print(i)
-    ```
+```
   
 </details>
 
