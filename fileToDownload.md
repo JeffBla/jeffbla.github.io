@@ -15,7 +15,7 @@ You can download everything.
 <details>
   <summary>AES HomeWork: python</summary>
   
-      somthing...
+somthing...
 
 ```python
 from base64 import b64decode, b64encode
