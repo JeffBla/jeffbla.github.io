@@ -2,7 +2,6 @@
 layout: page
 title: It Work!
 subtitle: Hey! Don't be naughty!
-Language: HTML
 ---
 
 You can download everything.
@@ -17,6 +16,7 @@ You can download everything.
   <summary>AES HomeWork: python</summary>
       
 ```python
+
 from base64 import b64decode, b64encode
 from Crypto.Cipher import AES
 
