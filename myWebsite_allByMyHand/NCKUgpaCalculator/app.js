@@ -22,6 +22,10 @@ time_line
   )
   .fromTo(animation, 0.3, { opacity: 1 }, { opacity: 0 });
 
+setTimeout(() => {
+  animation.style.pointerEvents = "none";
+}, 2500);
+
 // form expansion
 const initFormNum = 3;
 const formInputNum = 3;
