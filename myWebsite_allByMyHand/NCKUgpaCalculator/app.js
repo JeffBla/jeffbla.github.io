@@ -23,7 +23,8 @@ time_line
   .fromTo(animation, 0.3, { opacity: 1 }, { opacity: 0 });
 
 setTimeout(() => {
-  animation.style.pointerEvents = "none";
+  // animation.style.pointerEvents = "none";
+  animation.remove();
 }, 2500);
 
 // form expansion
