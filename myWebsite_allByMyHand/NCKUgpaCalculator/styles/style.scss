@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  font-family: "Baloo 2", cursive;
+  background-color: #272727;
+  color: white;
+}
+
+// enter anim
+.animation-wrapper {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+
+  .animation {
+    margin-top: 10vh;
+    height: 80vh;
+    // border: 3px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .hero {
+      // border: 3px solid green;
+      width: 100%;
+      height: 0;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+
+  .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgb(144, 144, 144), black);
+    z-index: -1;
+  }
+}
+
+nav {
+  box-shadow: 10px 2px 5px black;
+
+  ul {
+    display: flex;
+  }
+
+  li {
+    margin: 1rem;
+    font-size: 1.2rem;
+  }
+  a {
+    transition: all 1s ease;
+    &:hover {
+      color: yellow;
+    }
+  }
+}
+
+main {
+  padding: 0.5rem;
+  section.main-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+
+    h1 {
+      padding: 0.5rem;
+      font-size: 3rem;
+    }
+
+    .sort-btn button {
+      margin: 0.5rem;
+      padding: 0.5rem;
+    }
+
+    form {
+      display: flex;
+      margin: 0.5rem;
+
+      input {
+        margin: 0 0.25rem;
+        padding: 0.5rem;
+        font-size: 1.05rem;
+        border-radius: 0.25rem;
+      }
+
+      input.number {
+        width: 13%;
+      }
+
+      select.select {
+        margin: 0 0.25rem;
+        padding: 0.6rem;
+        -webkit-appearance: none;
+        border-radius: 50%;
+        text-align: center;
+        background-color: rgb(170, 170, 170);
+      }
+
+      button.delete-btn {
+        margin: 0 0.25rem;
+        border: 0;
+        background-color: #272727;
+        color: white;
+        font-size: 1.3rem;
+        cursor: pointer;
+      }
+    }
+
+    button.add-form-btn {
+      margin: 2rem;
+      border: 0;
+      background-color: #272727;
+      color: white;
+      font-size: 2.5rem;
+      cursor: pointer;
+
+      i {
+        pointer-events: none;
+      }
+    }
+
+    .GPA-output {
+      width: 200px;
+      height: 200px;
+      border: 3px solid red;
+      border-radius: 50%;
+      animation-name: GpaOutputColorChanging;
+      animation-duration: 5s;
+      animation-timing-function: ease;
+      animation-iteration-count: infinite;
+
+      p {
+        margin-top: 1rem;
+        font-size: 1.1rem;
+      }
+      h2 {
+        font-size: 3.5rem;
+      }
+    }
+  }
+}
+
+@keyframes formFadeOut {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0);
+  }
+}
+
+@keyframes formFadeIn {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes GpaOutputColorChanging {
+  0% {
+    border-color: red;
+  }
+  25% {
+    border-color: lightgreen;
+  }
+  50% {
+    border-color: yellow;
+  }
+  75% {
+    border-color: cyan;
+  }
+}

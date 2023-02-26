@@ -22,7 +22,9 @@ author: Some Person
 navbar-links:
   About Me: "aboutme"
   Download: "fileToDownload"
-  Project: "DataScienceProject"
+  Projects:
+    - Warm Winter: "DataScienceProject"
+    - NCKU GPA Calculator: "./myWebsite_allByMyHand/NCKUgpaCalculator/index.html"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
