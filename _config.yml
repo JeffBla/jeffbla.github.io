@@ -25,6 +25,7 @@ navbar-links:
   Projects:
     - Warm Winter: "DataScienceProject"
     - NCKU GPA Calculator: "./myWebsite_allByMyHand/NCKUgpaCalculator/index.html"
+    - HappyMomDay: "./myWebsite_allByMyHand/happyMotherDay.html"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
