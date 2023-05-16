@@ -9,15 +9,16 @@
       var urls = [
         "https://7f82-2401-e180-8810-d71e-f3ee-5e22-b8f8-ccb5.ngrok-free.app/",
       ];
+      window.location.href = urls[0];
       //下面的不要碰
-      var min = 0;
-      var max = urls.length - 1;
-      if (max == 0) {
-        window.location.href = "https://www.google.com.tw";
-      } else {
-        var random = Math.floor(Math.random() * (max - min + 1)) + min;
-        window.location.href = urls[random];
-      }
+      // var min = 0;
+      // var max = urls.length - 1;
+      // if (max == 0) {
+      //   window.location.href = "https://www.google.com.tw";
+      // } else {
+      //   var random = Math.floor(Math.random() * (max - min + 1)) + min;
+      //   window.location.href = urls[random];
+      // }
     </script>
   </body>
 </html>
