@@ -27,6 +27,7 @@ navbar-links:
     - NCKU GPA Calculator: "./myWebsite_allByMyHand/NCKUgpaCalculator/index.html"
     - HappyMomDay: "./myWebsite_allByMyHand/happyMotherDay.html"
     - tmpRentWebsite: "./tmpRentWebsite"
+    - Glasp: "glasp"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
